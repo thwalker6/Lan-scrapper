@@ -6,7 +6,7 @@ import datetime
 timeStarted = datetime.datetime.now()
 started = timeStarted.strftime("%m/%d/%Y %I:%M %p")
 
-mydir = "M:\\"
+mydir = "C:\\"
 bad_words = ['old', 'trash', 'replace', 'delete', '- copy']
 def find_path(MyDire):
 	for root, dirs, files in os.walk(mydir):
